@@ -10,9 +10,18 @@
     border: none;
 }
 
+/* .carousel::before{
+    content : "best products";
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-90deg);
+    font-size: 80px;
+    font-weight: 700;
+    } */
+
 .slider-bg {
     background-image: url("../images/header-bg.png");
-    background-color: #cccccc;
     height: 500px;
     background-position: left;
     background-repeat: no-repeat;
@@ -80,7 +89,7 @@
     background-color: white;
     box-shadow: 5px 5px 10px gray;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 5px 20px 5px 20px;
 }
 
 #categories {
@@ -89,4 +98,8 @@
 
 #footer p {
     text-align: center;
+}
+
+.r2{
+    margin-bottom: 20px;
 }
